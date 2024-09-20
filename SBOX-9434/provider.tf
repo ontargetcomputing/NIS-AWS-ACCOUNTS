@@ -17,5 +17,6 @@ provider "aws" {
   region = "us-west-2"
   assume_role {
     role_arn = "arn:aws:iam::117750079434:role/Terraform-Workspaces-Centralized-IdentityProvider-Target-Role"
-    }
-}
+    session_name = "terraform-session"
+  }
+  }
