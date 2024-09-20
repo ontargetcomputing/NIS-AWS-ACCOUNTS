@@ -70,20 +70,20 @@ resource "aws_vpc" "NIS-SBOX-9434-public-vpc" {
   }
 }
 
-resource "aws_vpc" "NIS-SBOX-9434-RaviKaileyTestVPC-vpc" {
-  assign_generated_ipv6_cidr_block     = "false"
-  cidr_block                           = "10.0.0.0/24"
-  enable_dns_hostnames                 = "true"
-  enable_dns_support                   = "true"
-  enable_network_address_usage_metrics = "false"
-  instance_tenancy                     = "default"
-  ipv6_netmask_length                  = "0"
+# resource "aws_vpc" "NIS-SBOX-9434-RaviKaileyTestVPC-vpc" {
+#   assign_generated_ipv6_cidr_block     = "false"
+#   cidr_block                           = "10.0.0.0/24"
+#   enable_dns_hostnames                 = "true"
+#   enable_dns_support                   = "true"
+#   enable_network_address_usage_metrics = "false"
+#   instance_tenancy                     = "default"
+#   ipv6_netmask_length                  = "0"
 
-  tags = {
-    Name = "RaviKaileyTestVPC"
-  }
+#   tags = {
+#     Name = "RaviKaileyTestVPC"
+#   }
 
-  tags_all = {
-    Name = "RaviKaileyTestVPC"
-  }
-} 
+#   tags_all = {
+#     Name = "RaviKaileyTestVPC"
+#   }
+# } 
