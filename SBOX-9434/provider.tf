@@ -10,6 +10,9 @@ terraform {
     aws = {
       source = "hashicorp/aws"
     }
+    terraform = {
+      source = "hashicorp/terraform"
+    }
   }
 }
 
@@ -20,3 +23,5 @@ provider "aws" {
     session_name = "terraform-session"
   }
   }
+
+provider "terraform" {}
