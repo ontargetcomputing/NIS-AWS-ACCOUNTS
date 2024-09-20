@@ -10,9 +10,9 @@ terraform {
     aws = {
       source = "hashicorp/aws"
     }
-    terraform = {
-      source = "hashicorp/terraform"
-      version = ">= 0.58.1"
+    tfe = {
+      source = "hashicorp/tfe"
+      version = "0.58.1"
     }
   }
 }
