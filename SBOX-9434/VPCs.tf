@@ -5,7 +5,7 @@ resource "aws_vpc" "NIS-SBOX-9434-testvpc-vpc" {
   enable_dns_support                   = "true"
   enable_network_address_usage_metrics = "false"
   instance_tenancy                     = "default"
-  ipv6_netmask_length                  = "0"
+  #ipv6_netmask_length                  = "0"
 
   tags = {
     Name = "testvpc"
@@ -23,7 +23,7 @@ resource "aws_vpc" "NIS-SBOX-9434-Data-vpc" {
   enable_dns_support                   = "true"
   enable_network_address_usage_metrics = "false"
   instance_tenancy                     = "default"
-  ipv6_netmask_length                  = "0"
+  #ipv6_netmask_length                  = "0"
 
   tags = {
     Name = "DHCS-EITS-Dev-Sandbox2-Data"
@@ -41,7 +41,7 @@ resource "aws_vpc" "NIS-SBOX-9434-Internal-vpc" {
   enable_dns_support                   = "true"
   enable_network_address_usage_metrics = "false"
   instance_tenancy                     = "default"
-  ipv6_netmask_length                  = "0"
+  #ipv6_netmask_length                  = "0"
 
   tags = {
     Name = "DHCS-EITS-Dev-Sandbox2-internal"
@@ -59,7 +59,7 @@ resource "aws_vpc" "NIS-SBOX-9434-public-vpc" {
   enable_dns_support                   = "true"
   enable_network_address_usage_metrics = "false"
   instance_tenancy                     = "default"
-  ipv6_netmask_length                  = "0"
+  #ipv6_netmask_length                  = "0"
 
   tags = {
     Name = "DHCS-EITS-Dev-Sandbox2-public"
@@ -77,7 +77,7 @@ resource "aws_vpc" "NIS-SBOX-9434-RaviKaileyTestVPC-vpc" {
   enable_dns_support                   = "true"
   enable_network_address_usage_metrics = "false"
   instance_tenancy                     = "default"
-  ipv6_netmask_length                  = "0"
+  #ipv6_netmask_length                  = "0"
 
   tags = {
     Name = "RaviKaileyTestVPC"
