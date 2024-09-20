@@ -86,4 +86,4 @@ resource "aws_vpc" "NIS-SBOX-9434-RaviKaileyTestVPC-vpc" {
   tags_all = {
     Name = "RaviKaileyTestVPC"
   }
-}
+} 
