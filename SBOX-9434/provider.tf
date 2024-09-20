@@ -12,6 +12,7 @@ terraform {
     }
     terraform = {
       source = "hashicorp/terraform"
+      version = ">= 1.9.5"
     }
   }
 }
@@ -24,4 +25,4 @@ provider "aws" {
   }
   }
 
-provider "terraform" {}
+provider "terraform" {}}
