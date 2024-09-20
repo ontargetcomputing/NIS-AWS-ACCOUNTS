@@ -12,7 +12,7 @@ terraform {
     }
     terraform = {
       source = "hashicorp/terraform"
-      version = ">= 0.13"
+      version = ">= 0.58.1"
     }
   }
 }
