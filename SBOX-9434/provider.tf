@@ -25,4 +25,4 @@ provider "aws" {
   }
   }
 
-provider "terraform" {}}
+provider "terraform" {}
