@@ -10,7 +10,7 @@
 # }
 
 
-# import {
-#   to = aws_vpc.NIS-SBOX-9434-testvpc-vpc
-#   id = "vpc-00582e4a3ec02665b"
-# }
+import {
+  to = aws_vpc.NIS-SBOX-9434-testvpc-vpc
+  id = "vpc-00582e4a3ec02665b"
+}
