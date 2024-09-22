@@ -23,6 +23,4 @@ provider "aws" {
     role_arn = "arn:aws:iam::117750079434:role/Terraform-Workspaces-Centralized-IdentityProvider-Target-Role"
     session_name = "terraform-session"
   }
-  }
-
-provider "terraform" {}
+}

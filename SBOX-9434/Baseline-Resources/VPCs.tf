@@ -1,20 +1,5 @@
-resource "aws_vpc" "NIS-SBOX-9434-testvpc-vpc" {
-  assign_generated_ipv6_cidr_block     = "false"
-  cidr_block                           = "10.0.0.0/24"
-  enable_dns_hostnames                 = "false"
-  enable_dns_support                   = "true"
-  enable_network_address_usage_metrics = "false"
-  instance_tenancy                     = "default"
-  ipv6_netmask_length                  = "0"
-
-  tags = {
-    Name = "testvpc"
-  }
-
-  tags_all = {
-    Name = "testvpc"
-  }
-}
+# resource "aws_vpc" "NIS-SBOX-9434-testvpc-vpc" {
+# }
 
 # resource "aws_vpc" "NIS-SBOX-9434-Data-vpc" {
 #   assign_generated_ipv6_cidr_block     = "false"
