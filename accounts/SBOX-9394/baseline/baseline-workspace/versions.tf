@@ -2,7 +2,7 @@ terraform {
   required_version = ">= 1.9.8"
 
   cloud {
-    organization = "balutbomber"
+    organization = "dhcs"
 
     workspaces {
       name = "NIS-AWS-Accounts-SBOX-9394-baseline-workspace"
